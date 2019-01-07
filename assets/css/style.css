@@ -1,0 +1,53 @@
+body{
+    background-image: url("../images/background.jpg");
+}
+
+.card-head,
+.gem-card{
+    margin-left:150px;
+    margin-right:150px;
+    background-color: rgba(245, 245, 245, 0.836);
+   align-self: center;
+}
+
+.card1-styling{
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(245, 245, 245, 0.836);
+
+}
+
+.card-header{
+    font-size: 24px;
+}
+
+.card2-styling{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(245, 245, 245, 0.836);   
+}
+
+.card3-styling,
+ .card4-styling{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(245, 245, 245, 0.836); 
+}
+
+img{
+    height:80px;
+    width:80px;
+}
+
+.buttonDiv {
+    justify-content: space-between;
+    text-align: center;
+    padding: 0;
+}
+
+.btn {
+    margin:10px;
+    padding: none;
+}

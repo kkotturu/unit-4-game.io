@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collector</title>
+
+    <link href="assets/css/reset.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link href="assets/css/style.css" type="text/css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="card card-head">
+                    <div class="card-body card1-styling">
+                        Crystal Collector Game
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><br>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="card card2-styling">
+                    <div class="card-header">
+                        Instructions
+                    </div>
+                    <div class="card-body">
+                        <ol>
+                        <li>At the start of each round, you will be given a random number. That number is your goal.</li>
+                        <li>There are four crystals below. Each crystal is worth a specific amount of points. By
+                            clicking on a crystal, you will add its value to your total score.</li>
+                        <li>To win the game, match your total score to the goal. If your total score goes above the
+                            goal, you lose.</li>
+                        <li>The value of each crystal is hidden from you until you click on it, and the values will be
+                            changed with each new round.</li>
+                        Good luck!
+                    </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <div class="card">
+                    <div class="card-body card3-styling">
+                        <p>Goal: <span id="numToGuess"></span></p>
+                        <p>Score: <span id="totalScore"></span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6">
+                <div class="card">
+                    <div class="card-body card4-styling">
+                        <p>Wins: <span id="wins"></span></p>
+                        <p>Losses: <span id="losses"></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="card gem-card">
+                    <div class="card-body buttonDiv">
+                        <button type="button" class="btn btn-default">
+                            <img src="assets/images/redgem.png" id="crystal1" class="crystalButton img-responsive" alt="Red crystal icon">
+                        </button>
+                        <button type="button" class="btn btn-default">
+                            <img src="assets/images/bluegem.png" id="crystal2" class="crystalButton img-responsive" alt="Blue crystal icon">
+                        </button>
+                        <button type="button" class="btn btn-default">
+                            <img src="assets/images/yellowgem.png" id="crystal3" class="crystalButton img-responsive" alt="Yellow crystal icon">
+                        </button>
+                        <button type="button" class="btn btn-default">
+                            <img src="assets/images/greengem.png" id="crystal4" class="crystalButton img-responsive" alt="Green crystal icon">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>
